@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Cidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Escolha o Estado e a Cidade</h1>
+        <div class="form-group">
+            <label for="estado">Estado:</label>
+            <select id="estado">
+                <option value="">Selecione um estado</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <!-- Outros estados -->
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="cidade">Cidade:</label>
+            <select id="cidade" disabled>
+                <option value="">Selecione uma cidade</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
